@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Local Set</string>
+    <string name="refresh">Refresh</string>
+    <string name="settings">Settings</string>
+    <string name="select_settings">Settings</string>
+    <string name="default_settings">Default settings</string>
+    <string name="add_location">Add location</string>
+    <string name="delete_location">Delete</string>
+    <string name="delete_location_msg">This location will be deleted.</string>
+    <string name="eidt_location">Edit</string>
+    <string name="wifi">WLAN</string>
+    <string name="data_conn">Mobile Data</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="sync">Auto sync</string>
+    <string name="birghtness">Brightness</string>
+    <string name="vibrate">Vibrate when ringing</string>
+    <string name="volume">Ringtone &amp; notifications volume</string>
+    <string name="ringer_mode">Ring Mode</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="unknown">Unknown</string>
+    <string name="state_on">On</string>
+    <string name="state_off">Off</string>
+    <string name="brightness_auto">Auto</string>
+    <string name="state_other">Other</string>
+    <string name="ringer_mode_normal">Normal</string>
+    <string name="ringer_mode_vibrate">Vibrate</string>
+    <string name="ringer_mode_silent">Silent</string>
+    <string name="no_network_conn">No network connection found.</string>
+    <string name="no_network_conn_msg">No network connection found. It need to be connected to the Internet in order to get correct network location fixes.</string>
+    <string name="location_service_err_title">Location services disabled</string>
+    <string name="location_service_err">needs access to your location. Please turn on Location Services.</string>
+    <string name="enable">Enable</string>
+    <string name="get_location">Get location&#8230;</string>
+    <string name="name">Name</string>
+    <string name="range">Range:</string>
+    <string name="unit_m">M</string>
+    <string name="default_range">500</string>
+
+</resources>

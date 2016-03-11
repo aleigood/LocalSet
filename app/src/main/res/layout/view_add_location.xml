@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_thumbnail_height"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/imageView"
+        android:src="#ffe4e4e4"/>
+
+    <TextView
+        android:id="@+id/m"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/line"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="bottom"
+        android:text="@string/unit_m"
+        android:textColor="#FF000000"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/rangeEdit"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/m"
+        android:layout_below="@id/line"
+        android:layout_marginLeft="8dp"
+        android:layout_toLeftOf="@id/m"
+        android:gravity="bottom"
+        android:inputType="text"
+        android:text="@string/default_range"/>
+
+    <TextView
+        android:id="@+id/range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/m"
+        android:layout_below="@id/line"
+        android:layout_marginLeft="8dp"
+        android:layout_toLeftOf="@id/rangeEdit"
+        android:gravity="bottom"
+        android:text="@string/range"
+        android:textColor="#FF000000"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/nameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/m"
+        android:layout_below="@id/line"
+        android:layout_marginLeft="8dp"
+        android:layout_toLeftOf="@id/range"
+        android:hint="@string/name"
+        android:inputType="text">
+
+        <requestFocus/>
+    </EditText>
+
+</RelativeLayout>

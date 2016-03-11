@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/selection"
+        android:icon="@drawable/ic_selection"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/add_location"/>
+
+</menu>
